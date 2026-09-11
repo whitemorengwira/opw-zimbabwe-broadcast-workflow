@@ -1,4 +1,4 @@
-# Security & Compliance Architecture — Our Perfect Wedding Zimbabwe
+# Security & Compliance Architecture — OPW Zimbabwe
 
 ## 1. Data Protection Standards
 * **Envelope Encryption**: I use dedicated customer-managed keys in AWS KMS to encrypt every object individually before it touches physical storage.

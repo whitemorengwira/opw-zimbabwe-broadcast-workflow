@@ -1,4 +1,4 @@
-# Automation & AI Integration — Our Perfect Wedding Zimbabwe
+# Automation & AI Integration — OPW Zimbabwe
 
 ## 1. Infrastructure Automation
 Using Terraform, I can provision the complete cloud environment for this production in under 90 seconds.

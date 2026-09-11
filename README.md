@@ -1,7 +1,7 @@
-# Our Perfect Wedding Zimbabwe — Production Engineering & Workflow Architecture
+# OPW Zimbabwe — Production Engineering & Workflow Architecture
 ## DStv · Zambezi Magic · Channel 162 · Film & TV · Client: Ngoda TV
 
-![Our Perfect Wedding Zimbabwe Banner](assets/OPW-ZIMBABWE.webp)
+![OPW Zimbabwe Banner](assets/OPW-ZIMBABWE.webp)
 
 [![Practice: N.White Systems](https://img.shields.io/badge/Practice-N.White%20Systems-0A1128?style=flat-square&logo=nextdotjs&logoColor=D4AF37)](https://nwhite.systems)
 [![Primary Cloud: AWS](https://img.shields.io/badge/Cloud-Amazon%20Web%20Services-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)](https://aws.amazon.com)
@@ -13,7 +13,7 @@
 
 ## Executive Summary
 
-In this repository, I present the **production technology, systems thinking, and workflow architecture** behind my work on **Our Perfect Wedding Zimbabwe**, broadcast across **DStv · Zambezi Magic · Channel 162**.
+In this repository, I present the **production technology, systems thinking, and workflow architecture** behind my work on **OPW Zimbabwe**, broadcast across **DStv · Zambezi Magic · Channel 162**.
 
 Throughout my career as a Principal Technology Architect & AI Systems Engineer, I have approached digital media with the same rigorous engineering discipline as enterprise software and cloud infrastructure:
 ```
@@ -49,14 +49,14 @@ In strict accordance with my professional transparency principles:
 ## 🏗️ Cloud & Pipeline Architecture Diagrams
 
 ### 1. AWS Cloud Infrastructure Architecture
-![AWS Cloud Architecture](diagrams/architecture.svg)
+![AWS Cloud Architecture](diagrams/architecture.png)
 *Figure 1: My AWS reference architecture, featuring KMS envelope encryption, Lambda event-driven transcoding, and role-based IAM access control.*  
-*(Source files: [`diagrams/architecture.svg`](diagrams/architecture.svg) | [`diagrams/architecture.png`](diagrams/architecture.png) | [`diagrams/architecture.excalidraw`](diagrams/architecture.excalidraw))*
+*(Source files: [`diagrams/architecture.png`](diagrams/architecture.png) | [`diagrams/architecture.svg`](diagrams/architecture.svg) | [`diagrams/architecture.excalidraw`](diagrams/architecture.excalidraw))*
 
 ### 2. End-to-End Production Pipeline Model
-![Production Pipeline Model](diagrams/workflow.svg)
+![Production Pipeline Model](diagrams/workflow.png)
 *Figure 2: The complete media lifecycle I engineer — from on-set capture and cloud ingest through colour finishing, technical QC, and Glacier archiving.*  
-*(Source files: [`diagrams/workflow.svg`](diagrams/workflow.svg) | [`diagrams/workflow.png`](diagrams/workflow.png) | [`diagrams/workflow.excalidraw`](diagrams/workflow.excalidraw))*
+*(Source files: [`diagrams/workflow.png`](diagrams/workflow.png) | [`diagrams/workflow.svg`](diagrams/workflow.svg) | [`diagrams/workflow.excalidraw`](diagrams/workflow.excalidraw))*
 
 ---
 

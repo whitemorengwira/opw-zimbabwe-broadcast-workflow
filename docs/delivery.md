@@ -1,4 +1,4 @@
-# Technical Delivery Specifications & QC — Our Perfect Wedding Zimbabwe
+# Technical Delivery Specifications & QC — OPW Zimbabwe
 
 ## 1. Broadcast Master Deliverables
 * **Video Format**: Apple ProRes 422 HQ / Avid DNxHD 175x (as required by network)

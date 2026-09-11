@@ -1,7 +1,7 @@
-# Production Workflow Documentation — Our Perfect Wedding Zimbabwe
+# Production Workflow Documentation — OPW Zimbabwe
 
 ## 1. My End-to-End Operational Journey
-From initial pre-production planning through final network broadcast, I structure the Our Perfect Wedding Zimbabwe workflow as an uninterrupted ten-stage progression:
+From initial pre-production planning through final network broadcast, I structure the OPW Zimbabwe workflow as an uninterrupted ten-stage progression:
 
 ### Phase 1: Pre-Production & Technical Briefing
 * I review channel delivery specifications (framerate, colour space, audio channel layout).

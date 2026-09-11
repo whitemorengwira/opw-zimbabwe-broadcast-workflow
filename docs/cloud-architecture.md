@@ -1,4 +1,4 @@
-# AWS Cloud Architecture Deep Dive — Our Perfect Wedding Zimbabwe
+# AWS Cloud Architecture Deep Dive — OPW Zimbabwe
 
 ## 1. My S3 Storage Architecture
 I structure S3 storage topology using deliberate prefix partitioning:

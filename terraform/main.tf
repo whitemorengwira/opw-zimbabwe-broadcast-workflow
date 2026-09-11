@@ -1,7 +1,7 @@
 # ==============================================================================
 # AWS Infrastructure as Code (Terraform)
 # Production Workflow & Cloud Storage Reference Implementation
-# Project: Our Perfect Wedding Zimbabwe (DStv · Zambezi Magic · Channel 162)
+# Project: OPW Zimbabwe (DStv · Zambezi Magic · Channel 162)
 # ------------------------------------------------------------------------------
 # NOTE: This configuration serves as an architectural reference implementation
 # demonstrating how I engineer media workflows on AWS with enterprise security,
@@ -23,7 +23,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "Our Perfect Wedding Zimbabwe"
+      Project     = "OPW Zimbabwe"
       Network     = "DStv · Zambezi Magic · Channel 162"
       Environment = var.environment
       ManagedBy   = "Terraform"
@@ -34,7 +34,7 @@ provider "aws" {
 
 # 1. KMS Customer Managed Key for Media Encryption
 resource "aws_kms_key" "media_key" {
-  description             = "KMS Key for Our Perfect Wedding Zimbabwe media asset encryption"
+  description             = "KMS Key for OPW Zimbabwe media asset encryption"
   deletion_window_in_days = 30
   enable_key_rotation     = true
 
@@ -139,7 +139,7 @@ resource "aws_iam_role" "post_production_role" {
 
 resource "aws_iam_policy" "post_production_policy" {
   name        = "opw_zimbabwe_broadcast_workflow-post-production-policy"
-  description = "Scoped S3 and KMS permissions for Our Perfect Wedding Zimbabwe post-production workflow"
+  description = "Scoped S3 and KMS permissions for OPW Zimbabwe post-production workflow"
 
   policy = jsonencode({
     Version = "2012-10-17"

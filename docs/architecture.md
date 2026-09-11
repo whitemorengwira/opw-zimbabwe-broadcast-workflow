@@ -1,7 +1,7 @@
-# Architecture Specification — Our Perfect Wedding Zimbabwe
+# Architecture Specification — OPW Zimbabwe
 
 ## 1. My Architectural Intent
-My architectural objective for the **Our Perfect Wedding Zimbabwe** media pipeline is to eliminate manual bottlenecks, secure multi-terabyte camera footage, and guarantee punctual broadcast delivery against unforgiving network transmission slots.
+My architectural objective for the **OPW Zimbabwe** media pipeline is to eliminate manual bottlenecks, secure multi-terabyte camera footage, and guarantee punctual broadcast delivery against unforgiving network transmission slots.
 
 ## 2. My Infrastructure Principles
 1. **Infrastructure as Code (IaC)**: I declaratively define every bucket, encryption key, and access role in Terraform for deterministic reproducibility.
